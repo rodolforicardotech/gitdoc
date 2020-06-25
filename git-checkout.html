@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(45, 166, 246);
+            text-align: center;
+        }
+        
+    </style>
+    <title>Talking about git checkout</title>
+</head>
+<body>
+    <header>
+        <h1>Git checkout</h1>
+    <h2>NAME</h2>
+    <p>git-checkout - Switch branches or restore working tree files</p>
+    </header>
+    <div class="main-content">
+        <h1>SYNOPSIS</h1>
+        <p>
+            git checkout [-q] [-f] [-m] [<branch>]</br>
+            git checkout [-q] [-f] [-m] --detach [<branch>]</br>
+        </p>
+        <h2>DESCRIPTION</h2>
+        <p>
+            Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, git checkout will also update HEAD to set the specified branch as the current branch.
+        </p>
+        <p>
+            Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, git checkout will also update HEAD to set the specified branch as the current branch.
+        </p>
+        <h3>git checkout [<branch>]</h3>
+        <p>
+            To prepare for working on <branch>, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch. Local modifications to the files in the working tree are kept, so that they can be committed to the <branch>.
+
+            If branch is not found but there does exist a tracking branch in exactly one remote (call it remote) with a matching name and --no-guess is not specified, treat as equivalent to
+
+            $ git checkout -b <branch> --track
+            You could omit <branch>, in which case the command degenerates to "check out the current branch", which is a glorified no-op with rather expensive side-effects to show only the tracking information, if exists, for the current branch.
+        </p>
+
+
+
+    </div>
+    
+</body>
+</html>
